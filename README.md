@@ -16,7 +16,7 @@
 ![app design](documentation/files/app_diagram.JPG)
 
 ## Activity Descriptions / Requirements
-#### [**Sign-up Screen:**](SignUp.java)
+#### [**Sign-up Screen:**](app/src/main/java/com/example/project1/SignUp.java)
 It creates a sign-up page for new users. It has the following fields:
 + Name
 + Gender
@@ -30,7 +30,7 @@ It creates a sign-up page for new users. It has the following fields:
     + Start with upper case.
     + Contains a number.
 
-#### [**Login screen:**](Login.java)
+#### [**Login screen:**](app/src/main/java/com/example/project1/Login.java)
 It is the login screen from where the user can access their account:
 + Username
 + Password
@@ -39,7 +39,7 @@ It is the login screen from where the user can access their account:
 have not discussed database objects yet, please use appropriate global variables if
 needed.
 
-#### [**Home Page:**](Home.java)
+#### [**Home Page:**](app/src/main/java/com/example/project1/HomePage.java)
 This is the main screen that a user sees after they login to their account:
 + Display your name—Example, “Welcome Ana”
 + Display an image
@@ -51,31 +51,31 @@ This is the main screen that a user sees after they login to their account:
 + Disable the back button, i.e. the user should not be able to return back to the login
 screen from this activity
 
-#### [**Account Settings:**](AccountSettings.java)
+#### [**Account Settings:**](app/src/main/java/com/example/project1/AccountSettings.java)
 + Display username, password.
 + Change password—This field should allow the user to change their password.
 
-#### [**Favorite Music:**](FavoriteMusic.java)
+#### [**Favorite Music:**](app/src/main/java/com/example/project1/FavoriteMusic.java)
 This page is more like a dashboard and user cannot make changes. Add
 some songs and give the option to the user to play their favorite music.
 + Have an option to select from dropdown instead of the button and play music.
 + Selection from the dropdown menu should navigate to the YouTube page and
 play the corresponding song. Uri objects will be helpful for this.
 
-#### [**My Bucket List:**](BucketList.java)
+#### [**My Bucket List:**](app/src/main/java/com/example/project1/BucketList.java)
 + Textbox to enter what you wish to do in the future.
 + Save button.
 c. Display what was added in step 6a to a checkbox (indicating that the goal was
 added to the list).
 
-#### [**Favorite memories:**](FavoriteMemories.java)
+#### [**Favorite memories:**](app/src/main/java/com/example/project1/FavoriteMemories.java)
 *(it is more like a dashboard and does not save values (it displays)).*
 + Values will be predefined on this screen:
     + Title—Subject line.
     + A special/favorite memory—Description of a memory.
 + A related picture.
 
-#### [**Helpful Links:**](HelpfulLinks.java)
+#### [**Helpful Links:**](app/src/main/java/com/example/project1/HelpfulLinks.java)
 + Add 4 buttons that provide links to some of the informational websites (you pick
 the topics).
 + Clicking on these buttons should navigate to the corresponding website.
