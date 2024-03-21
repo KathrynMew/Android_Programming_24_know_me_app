@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    android:backgroundTint="@color/black"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/notable"
+        android:paddingTop="150dp"
+        android:paddingBottom="10dp"
+        android:text="know me"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="50sp" />
+
+    <ImageButton
+        android:id="@+id/knowMeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="356dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@color/black"
+        android:contentDescription="know_me_logo"
+        android:scaleType="fitCenter"
+        android:src="@drawable/know_me_logo" />
+
+</LinearLayout>

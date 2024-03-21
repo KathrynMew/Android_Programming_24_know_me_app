@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_horizontal"
+    android:background="@color/black"
+    android:orientation="vertical"
+    tools:context=".FavoriteMusic">
+
+    <View
+        android:id="@+id/divider"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#FFC107"
+        android:backgroundTint="#FFC107" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="sans-serif-smallcaps"
+        android:paddingVertical="15dp"
+        android:text="@string/favorite_music_title"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="48sp"
+        android:textStyle="bold" />
+
+    <View
+        android:id="@+id/divider1"
+        android:layout_width="match_parent"
+        android:layout_height="15dp"
+        android:background="#FFC107"
+        android:backgroundTint="#FFC107" />
+
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/songButton"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:contentDescription="Caught In A Blue"
+                android:scaleType="fitCenter"
+                android:src="@drawable/ciab_cover" />
+
+            <ImageButton
+                android:id="@+id/songButton2"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:contentDescription="The Pool"
+                android:scaleType="fitCenter"
+                android:src="@drawable/thepool_cover" />
+
+            <ImageButton
+                android:id="@+id/songButton3"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:contentDescription="Ring of Fire"
+                android:scaleType="fitCenter"
+                android:src="@drawable/rof_cover" />
+
+            <ImageButton
+                android:id="@+id/songButton4"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:contentDescription="Sinners"
+                android:scaleType="fitCenter"
+                android:src="@drawable/sinners_cover" />
+
+            <ImageButton
+                android:id="@+id/songButton5"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:background="@color/black"
+                android:contentDescription="Flash Mountain"
+                android:scaleType="fitCenter"
+                android:src="@drawable/fm_cover" />
+        </LinearLayout>
+    </HorizontalScrollView>
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="18dp" />
+
+    <Spinner
+        android:id="@+id/musicSpinner"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="#FFC107"
+        android:backgroundTint="@color/black"
+        android:backgroundTintMode="add"
+        android:dropDownWidth="wrap_content"
+        android:textAlignment="center" />
+
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="370dp" />
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:backgroundTint="@color/black"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="@string/home_page_title"
+        android:textAlignment="center"
+        android:textColor="#FFC107"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

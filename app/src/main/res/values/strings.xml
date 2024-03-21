@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">project1</string>
+
+    <string name="sign_up_title">sign up</string>
+    <string name="login_title">login</string>
+    <string name="home_page_title">home</string>
+    <string name="account_settings_title">account settings</string>
+    <string name="favorite_music_title">favorite music</string>
+    <string name="bucket_list_title">my bucket list</string>
+    <string name="favorite_memories_title">favorite memories</string>
+    <string name="helpful_links_title">helpful links</string>
+
+    <string name="sanchez_concert_title">Stephen Sanchez Concert</string>
+    <string name="sanchez_concert_subject">12.18.2023 - The National, Richmond, VA</string>
+    <string name="sanchez_concert_description">This was the first live concert I\'ve attended, and it was
+        well worth the wait time. I enjoyed many of the songs, and have been looking forward to the
+        new songs he teased at the concert. It was a possibly once in a lifetime opportunity, and
+        with great luck that I discovered him in time to explore his discography in its entirety.
+    </string>
+    <string name="sanchez_concert_image">Sanchez Baby!</string>
+
+    <string name="camaro_title">Getting My Camaro</string>
+    <string name="camaro_subject">8.26.2023</string>
+    <string name="camaro_description">My Camaro is a hand-me-down from my dad. It means a lot to me
+        just because it was my dad\'s. He\'s taught me to do a lot of the maintenance on it so that I
+        can save money doing things like oil changes and changing tires myself.</string>
+    <string name="camaro_image">camaro</string>
+
+    <string name="making_friends_title">Meeting Friends</string>
+    <string name="making_friends_subject">Smash Club</string>
+    <string name="making_friends_description">I met so many of my favorite friends at Smash club,
+        the drawing being a creation of one of them. I struggled in being close to anyone
+        throughout as well freshman and sophomore years. Smash club was that ice-breaker and it was
+        an impulsive go-to after seeing my one of my now-best friend\'s shameless plugs in a discord
+        server. Meeting my friends and any moments we have together will always be a part of my
+        favorite memories.</string>
+    <string name="dk_image">Credit to Zander</string>
+    <string name="password_requirements">must be 8 chars (can be alphanumeric)\nstart with upper case\ncontains a number</string>
+    <string name="enter_password">Enter Password</string>
+    <string name="password_prompt">password:</string>
+    <string name="username_requirements">must be 5 chars (can be alphanumeric), all lowercase</string>
+    <string name="enter_username">Enter Username</string>
+    <string name="username_prompt">username:</string>
+</resources>
