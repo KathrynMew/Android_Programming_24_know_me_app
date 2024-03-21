@@ -79,3 +79,6 @@ added to the list).
 + Add 4 buttons that provide links to some of the informational websites (you pick
 the topics).
 + Clicking on these buttons should navigate to the corresponding website.
+
+## Main Application Components
+Checkout [src/main Documentation](app/src/main/README.md)
